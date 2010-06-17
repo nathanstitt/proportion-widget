@@ -1,0 +1,55 @@
+div.proportion {
+    width:100%;
+    padding-top: 200px;
+}
+
+div.proportion .handle {
+    width:10px; margin-top: -5px; height:15px; background-color:#f00; cursor:move; position: absolute;
+}
+
+div.proportion .ui-proportion-span {
+    width: 200;
+    position: absolute;
+    height: 15px;
+    width: 5px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-radius: 2px;
+}
+
+
+div.proportion .ui-proportion-label {
+    left:5px;
+    font-size: 16px;
+    width: 145px;
+    padding: 0px;
+    margin: 0px;
+    position:absolute;
+    top:-14px;
+    overflow: hidden;
+}
+div.proportion .ui-proportion-label .caption {
+    font-decoration: italic;
+}
+div.proportion .ui-proportion-label .value {
+    padding-left: 0.4em;
+    font-weight: bold;
+}
+
+div.proportion_box {
+    height: 75px;
+}
+div.proportion_ends {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    height: 10px;
+    padding-top: 5px;
+    width:100%;
+    margin-top: 60px;
+}
+
+div#proportion_spacer{
+    height: 5px;
+}
