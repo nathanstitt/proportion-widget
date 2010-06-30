@@ -180,7 +180,7 @@ S2.UI.Proportion.Label = Class.create({
 	}
     },
     _format:function( val ){
-	return val;
+	return parseFloat( val ).toFixed(2);
     }
 
 });

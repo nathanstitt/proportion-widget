@@ -4,3 +4,5 @@ It modifies the slider to accept multiple handles and the places a label between
 
 It's a simple way to sub-divide a large amount into several small ones.
 
+I'd like to get this merged into the main Scripty2 UI framework at some point, but need to write up much better documentation and comment the code first.  If anyone would like to takle that it would be wonderful!
+
